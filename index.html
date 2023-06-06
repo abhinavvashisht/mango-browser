@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mango Browser</title>
+  </head>
+  <body>
+    <input type="text" id="urlInput" placeholder="Enter URL">
+    <button onclick="loadPage()">Go</button>
+    <webview id="browserView" src=""></webview>
+
+    <script>
+      function loadPage() {
+        var urlInput = document.getElementById("urlInput");
+        var browserView = document.getElementById("browserView");
+        var url = urlInput.value;
+        browserView.src = url;
+      }
+    </script>
+  </body>
+</html>

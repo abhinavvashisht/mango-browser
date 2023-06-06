@@ -1,0 +1,30 @@
+{
+  "name": "mango-browser",
+  "version": "1.0.0",
+  "description": "Mango Browser",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Abhinav Kumar",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^12.0.2",
+    "electron-builder": "^22.13.2"
+  },
+  "dependencies": {},
+  "build": {
+    "appId": "com.mangobrowser.app",
+    "productName": "Mango Browser",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "assets/mango.ico"
+    }
+  }
+}
