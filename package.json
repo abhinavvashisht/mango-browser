@@ -12,10 +12,9 @@
   "author": "Abhinav Kumar",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^12.0.2",
-    "electron-builder": "^22.13.2"
+    "electron": "^25.0.1",
+    "electron-builder": "^24.4.0"
   },
-  "dependencies": {},
   "build": {
     "appId": "com.mangobrowser.app",
     "productName": "Mango Browser",
@@ -26,5 +25,13 @@
       "target": "nsis",
       "icon": "assets/mango.ico"
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavvashisht/mango-browser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abhinavvashisht/mango-browser/issues"
+  },
+  "homepage": "https://github.com/abhinavvashisht/mango-browser#readme"
 }
